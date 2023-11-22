@@ -1,0 +1,125 @@
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 0
+[ LOG ] — value: 2893
+[ LOG ] — value: 6063
+[ LOG ] — value: 9133
+[ LOG ] — value: 11755
+[ LOG ] — value: 15097
+
+
+Result for no lock
+Final counter value: 16904
+Time spend:  30.02s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 1
+[ LOG ] — value: 3519
+[ LOG ] — value: 7018
+[ LOG ] — value: 10509
+[ LOG ] — value: 14113
+[ LOG ] — value: 17680
+[ LOG ] — value: 21150
+[ LOG ] — value: 24689
+[ LOG ] — value: 28159
+[ LOG ] — value: 31622
+[ LOG ] — value: 35106
+[ LOG ] — value: 38609
+[ LOG ] — value: 42035
+[ LOG ] — value: 45673
+[ LOG ] — value: 49264
+[ LOG ] — value: 52722
+[ LOG ] — value: 56206
+[ LOG ] — value: 59699
+[ LOG ] — value: 63163
+[ LOG ] — value: 66677
+[ LOG ] — value: 70193
+[ LOG ] — value: 73750
+[ LOG ] — value: 77272
+[ LOG ] — value: 80768
+[ LOG ] — value: 84242
+[ LOG ] — value: 87773
+[ LOG ] — value: 91348
+[ LOG ] — value: 95175
+[ LOG ] — value: 98729
+
+
+Result for Optimistic lock
+Final counter value: 100000
+Time spend:  145.06s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 0
+[ LOG ] — value: 2157
+[ LOG ] — value: 4336
+[ LOG ] — value: 6514
+[ LOG ] — value: 8706
+[ LOG ] — value: 10897
+[ LOG ] — value: 13092
+[ LOG ] — value: 15288
+[ LOG ] — value: 17468
+[ LOG ] — value: 19647
+[ LOG ] — value: 21836
+[ LOG ] — value: 24023
+[ LOG ] — value: 26156
+[ LOG ] — value: 28258
+[ LOG ] — value: 30392
+[ LOG ] — value: 32465
+[ LOG ] — value: 34651
+[ LOG ] — value: 36826
+[ LOG ] — value: 39012
+[ LOG ] — value: 41200
+[ LOG ] — value: 43393
+[ LOG ] — value: 45565
+[ LOG ] — value: 47735
+[ LOG ] — value: 49917
+[ LOG ] — value: 52110
+[ LOG ] — value: 54296
+[ LOG ] — value: 56490
+[ LOG ] — value: 58670
+[ LOG ] — value: 60883
+[ LOG ] — value: 63073
+[ LOG ] — value: 65257
+[ LOG ] — value: 67444
+[ LOG ] — value: 69644
+[ LOG ] — value: 71819
+[ LOG ] — value: 73992
+[ LOG ] — value: 76166
+[ LOG ] — value: 78339
+[ LOG ] — value: 80520
+[ LOG ] — value: 82707
+[ LOG ] — value: 84899
+[ LOG ] — value: 87092
+[ LOG ] — value: 89285
+[ LOG ] — value: 91465
+[ LOG ] — value: 93617
+[ LOG ] — value: 95800
+[ LOG ] — value: 97962
+
+
+Result for Pessimistic lock
+Final counter value: 100000
+Time spend:  230.06s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 10
+[ LOG ] — value: 33933
+[ LOG ] — value: 70472
+
+
+Result for IAtomicLong
+Final counter value: 100000
+Time spend:  15.02s
+————————————————————————————————————————————————

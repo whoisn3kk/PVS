@@ -1,0 +1,25 @@
+services:
+  hazelcast-node-1:
+    image: hazelcast/hazelcast:latest
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5701:5701"
+  hazelcast-node-2:
+    image: hazelcast/hazelcast:latest
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5702:5701"
+  hazelcast-node-3:
+    image: hazelcast/hazelcast:latest
+    environment:
+      - JAVA_OPTS=-Dhazelcast.config=/opt/hazelcast/config/hazelcast.yaml
+    volumes:
+      - ./hazelcast.yaml:/opt/hazelcast/config/hazelcast.yaml
+    ports:
+      - "5703:5701"
