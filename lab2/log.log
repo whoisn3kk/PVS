@@ -1,0 +1,127 @@
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 36
+[ LOG ] — value: 10897
+
+
+Result for Lost-update
+Final counter value: 10897
+Time spend:  14.78s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 102
+[ LOG ] — value: 100000
+
+
+Result for In-place update
+Final counter value: 100000
+Time spend:  14.16s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 56
+[ LOG ] — value: 100000
+
+
+Result for Row-level locking
+Final counter value: 100000
+Time spend:  25.6s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 29
+[ LOG ] — value: 100000
+
+
+Result for Optimistic concurrency control
+Final counter value: 100000
+Time spend:  90.38s
+————————————————————————————————————————————————
+
+
+
+(venv) PS C:\Users\dmytr\Desktop\4_1\KATYA_P\lab2> python lab2.py
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 22
+[ LOG ] — value: 3592
+[ LOG ] — value: 7325
+[ LOG ] — value: 10822
+
+
+Result for Lost-update
+Final counter value: 10822
+Time spend:  15.22s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 139
+[ LOG ] — value: 35906
+[ LOG ] — value: 71836
+[ LOG ] — value: 100000
+
+
+Result for In-place update
+Final counter value: 100000
+Time spend:  15.21s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 39
+[ LOG ] — value: 20073
+[ LOG ] — value: 40206
+[ LOG ] — value: 60364
+[ LOG ] — value: 80581
+[ LOG ] — value: 100000
+
+
+Result for Row-level locking
+Final counter value: 100000
+Time spend:  25.27s
+————————————————————————————————————————————————
+
+
+
+[ LOG ] — counter reseted to 0
+
+[ LOG ] — value: 28
+[ LOG ] — value: 5623
+[ LOG ] — value: 11226
+[ LOG ] — value: 16861
+[ LOG ] — value: 22480
+[ LOG ] — value: 28119
+[ LOG ] — value: 33739
+[ LOG ] — value: 39417
+[ LOG ] — value: 45121
+[ LOG ] — value: 50708
+[ LOG ] — value: 56238
+[ LOG ] — value: 61796
+[ LOG ] — value: 67366
+[ LOG ] — value: 72875
+[ LOG ] — value: 78544
+[ LOG ] — value: 84323
+[ LOG ] — value: 90023
+[ LOG ] — value: 95666
+[ LOG ] — value: 100000
+
+
+Result for Optimistic concurrency control
+Final counter value: 100000
+Time spend:  90.79s
+————————————————————————————————————————————————
